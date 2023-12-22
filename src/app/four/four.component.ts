@@ -20,7 +20,7 @@ export class FourComponent {
 
   private fetchData(): void {
     this.http
-      .get<Todo[]>('https://basss.free.beeceptor.com/todos')
+      .get<Todo[]>('https://so-77698569.free.beeceptor.com/todos')
       .pipe(tap(t => console.log(t)))
       .subscribe(todos => {
         this.todos = todos;
